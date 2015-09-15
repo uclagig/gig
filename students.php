@@ -147,7 +147,7 @@
                                 echo '<script>alert("Sorry! We are currently only accepting UCLA students.")</script>'; 
                             }
                             //add recipient
-                            $to = "raks.garg@gmail.com";
+                            $to = "info@uclagig.com";
                             $subject = "$name wants to be on the email list for Gig!";
                             $message = "Name: $name\r\n";
                             $message .= "Email: $email\r\n"; 

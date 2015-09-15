@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
 	$message = $_POST['message'];
 	$company = $_POST['company'];
 
-	$to      = 'raks.garg@gmail.com';
+	$to      = 'info@uclagig.com';
 	$subject = 'Gig Recruiters Contact Form';
 
     $email_body = "Name: $name\r\n" ;
