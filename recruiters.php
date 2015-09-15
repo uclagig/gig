@@ -243,7 +243,7 @@
                 </ul>
 
                 <p style="margin-bottom: 5px !important;">
-                    an alternative to a traditional hiring experience.
+                    an alternative to the traditional hiring experience.
                 </p>
                 <p class="copyright">
                     © 2015 Gig | Images: <a href="https://unsplash.com/">Unsplash</a></a>
