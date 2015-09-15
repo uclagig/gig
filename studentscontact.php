@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
 	$message = "Name: $name\r\n";
     $message .= "Email: $email\r\n";
 
-	$to      = 'raks.garg@gmail.com';
+	$to      = 'uclagiginfo@gmail.com';
 	$subject = 'Gig Waiting List Request Form';
 
 	$headers = 'From: '. $email . "\r\n" .

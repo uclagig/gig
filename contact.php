@@ -6,7 +6,7 @@ if(isset($_POST['message'])){
 	$message = $_POST['message'];
     
 
-	$to      = 'info@uclagig.com';
+	$to      = 'uclagiginfo@gmail.com';
 	$subject = 'Gig General Contact Form';
 
 	$headers = 'From: '. $email . "\r\n" .
