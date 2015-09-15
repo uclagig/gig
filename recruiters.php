@@ -43,7 +43,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="students.php">Students</a></li>
+                    <li><a href="students.html">Students</a></li>
                     <li class="active"><a href="recruiters.html">Recruiters</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -223,7 +223,7 @@
             <div class="col-sm-12" style="padding-bottom: 40px;">
                 <a href="index.html" style="border-right: 1px solid white; padding-right: 20px;">Home</a>
                 <a href="about.html" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">About</a>
-                <a href="students.php" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">Students</a>
+                <a href="students.html" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">Students</a>
                 <a href="recruiters.html" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">Recruiters</a>
                 <a href="contact.html" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">Contact</a>
                 <a href="faq.html" style="padding-left: 20px;">FAQs</a>
