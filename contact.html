@@ -23,15 +23,6 @@
 </head>
 <body>
 
-<!-- Preloader -->
-
-<div id="preloader">
-    <div id="status"></div>
-</div>
-
-
-
-<!-- Navigation start -->
 
 <header class="header">
 
@@ -53,7 +44,6 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="students.html">Students</a></li>
-                    <li><a href="recruiters.html">Recruiters</a></li>
                     <li class="active"><a href="contact.html">Contact</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="faq.html">FAQs</a></li>
@@ -66,36 +56,98 @@
 
 </header>
 
-<!-- Navigation end -->
+<section class="recruits-background">
+    <div class="container">
+        <h1 class="text-center" style="padding: 150px; color: white;"></h1>
+    </div>
+</section>
+
+<!-- Testimonials start -->
 
 <section id="testimonials" class="pfblock">
 
     <div class="container">
 
         <div class="row">
-
             <div class="col-sm-12">
+                <div class="pfblock-header wow fadeInUp" style="text-align: left !important;">
+                    <h2 class="pfblock-title pull-left">Contact</h2>
+                    <div class="pfblock-subtitle3 pull-left">
+                        Our goal is to provide valuable opportunities for both companies and
+                        students. At UCLA Engineering, we see loads of talented individuals looking
+                        for a chance to contribute to the world of technology. Thus, we want to help these students
+                        get jobs, internships, referrals, and other career building
+                        advice while helping recruiters gain access to untapped potential and better talent. Whether you are an interested student, recruiter, or alumni,
+                        we'd love to hear from you if you have any questions, suggestions, or concerns.
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <div class="pfblock-header wow fadeInUp">
-                    <h2 class="pfblock-title">Contact</h2>
+        <div class="pfblock-line"></div>
 
-                    <div class="pfblock-subtitle3">
-                        We want to help students get jobs, internships, referrals, and other career building advice while helping recruiters gain access to untapped potential and better talent. We'd love to hear from you if you have any questions, suggestions, or concerns.
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pfblock-header wow fadeInUp" style="text-align: left !important;">
+                    <div class="pfblock-subtitle3 text-center">
 
                     </div>
                 </div>
-
             </div>
+        </div>
 
-        </div><!-- .row -->
+        <form method="post" action="contact.php">
 
-            <form method="post" action="contact.php">
+            <div class="ajax-hidden">
+                <div class="row col-sm-8 col-sm-offset-2">
+                    <div class="form-group wow fadeInUp">
+                        <label class="sr-only" for="c_name">Name</label>
+                        <input class="form-control" name="name" placeholder="Name">
+                    </div>
 
-                    <div class="ajax-hidden">
-                        <div class="row col-sm-8 col-sm-offset-2">
+                    <div class="form-group wow fadeInUp" data-wow-delay=".1s">
+                        <label class="sr-only" for="c_email">Email</label>
+                        <input type="email" class="form-control" name="email" placeholder="E-mail">
+                    </div>
+
+                    <div class="form-group wow fadeInUp" data-wow-delay=".2s">
+                        <textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5"></div>
+                    <input class="btn btn-lg col-sm-2 contact-btn" id="submit" name = "submit" type="submit" value="submit" >
+                    <div class="col-sm-5"></div>
+                </div>
+
+                <div class="ajax-response"></div>
+
+
+
+        </form>
+
+        <!--<div class="pfblock-subtitle3 text-center">
+            If you are an interested recruiter or alumnus and would like to work with us, please
+            visit our contact page and let us know what you're looking for.
+        </div>-->
+
+
+
+
+
+        <!--<form method="post" action="recruiterscontact.php">
+            <div class="row" style="padding-top: 0px;">
+                <div class="col-sm-6 flex-center-vertically">
+
+                        <div class="ajax-hidden">
                             <div class="form-group wow fadeInUp">
                                 <label class="sr-only" for="c_name">Name</label>
                                 <input class="form-control" name="name" placeholder="Name">
+                            </div>
+
+                            <div class="form-group wow fadeInUp">
+                                <label class="sr-only" for="c_company">Company</label>
+                                <input class="form-control" name="company" placeholder="Company">
                             </div>
 
                             <div class="form-group wow fadeInUp" data-wow-delay=".1s">
@@ -103,56 +155,39 @@
                                 <input type="email" class="form-control" name="email" placeholder="E-mail">
                             </div>
 
-                            <div class="form-group wow fadeInUp" data-wow-delay=".2s">
-                                <textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-5"></div>
-                            <input class="btn btn-lg col-sm-2 contact-btn" id="submit" name = "submit" type="submit" value="submit" >
-                            <div class="col-sm-5"></div>
+
+
                     </div>
 
                     <div class="ajax-response"></div>
-
-
-
-            </form>
-
-
-
-        <div class="row">
-
-            <div id="cbp-qtrotator" class="cbp-qtrotator">
-                <div class="cbp-qtcontent">
-                    <img src="assets/images/client-1.jpg" alt="client-1" />
-                    <blockquote>
-                        <p>Work with John was a pleasure. He understood exactly what I wanted and created an awesome site for my company.</p>
-                        <footer>Pino Caruso</footer>
-                    </blockquote>
-                </div>
-                <div class="cbp-qtcontent">
-                    <img src="assets/images/client-2.jpg" alt="client-2" />
-                    <blockquote>
-                        <p>I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</p>
-                        <footer>Jane Doe</footer>
-                    </blockquote>
                 </div>
 
+                <div class="col-sm-6 flex-center-vertically">
+                    <div class="ajax-hidden">
+
+                        <div class="form-group wow fadeInUp" data-wow-delay=".2s">
+                            <textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="ajax-response"></div>
+                </div>
             </div>
 
-        </div><!-- .row -->
+            <div class="row" style="text-align: center;">
+                <div class="col-sm-5"></div>
+                <input class="btn btn-lg col-sm-2 contact-btn" id="submit" name = "submit" type="submit" value="submit" >
+                <div class="col-sm-5"></div>
+            </div>
+        </form>-->
 
 
-    </div><!-- .row -->
+
+    </div>
 </section>
 
-
-<!-- Contact start -->
-
-
-
-<!-- Contact end -->
+<!-- Testimonial end -->
 
 <!-- Footer start -->
 
@@ -162,10 +197,9 @@
 
             <div class="col-sm-12" style="padding-bottom: 40px;">
                 <a href="index.html" style="border-right: 1px solid white; padding-right: 20px;">Home</a>
-                <a href="about.html" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">About</a>
                 <a href="students.html" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">Students</a>
-                <a href="recruiters.html" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">Recruiters</a>
                 <a href="contact.html" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">Contact</a>
+                <a href="about.html" style="border-right: 1px solid white; padding-right: 20px; padding-left: 20px;">About</a>
                 <a href="faq.html" style="padding-left: 20px;">FAQs</a>
             </div>
 
@@ -195,6 +229,7 @@
 <!-- Footer end -->
 
 <!-- Scroll to top -->
+
 
 
 <!-- Scroll to top end-->
