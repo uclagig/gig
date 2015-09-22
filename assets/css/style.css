@@ -650,6 +650,18 @@ input[type=submit],
 	background: #222;
 }
 
+/*@media (min-width: 768px) {
+	.navbar .navbar-nav {
+		display: inline-block !important;
+		float: none !important;
+		vertical-align: top !important;
+	}
+
+	.navbar .navbar-collapse {
+		text-align: center !important;
+	}
+}*/
+
 /* ---------------------------------------------- /*
  * Scroll to top
 /* ---------------------------------------------- */
