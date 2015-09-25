@@ -1168,4 +1168,14 @@ figure.effect-bubba:hover p {
 	-o-background-size: cover;
 }
 
+.resume{
+	color: #cccccc !important;
+	font-weight: 500;
+
+}
+
+.resume:hover{
+	color: white !important;
+}
+
 
